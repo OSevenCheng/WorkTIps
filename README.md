@@ -6,3 +6,5 @@
 2. RenderTarget中没有动态阴影（物体没有接收自己的阴影）
    所有dynamic shadow相关的选项都勾上
    如果项目开启了使ray trace，必须勾选use ray trace if enable
+
+ D:\COLMAP-3.9.1-windows-cuda\COLMAP.bat automatic_reconstructor --workspace_path . --image_path ./images --sparse 1 --dense 0 --camera_model SIMPLE_PINHOLE
