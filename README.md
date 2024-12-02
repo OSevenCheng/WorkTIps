@@ -8,3 +8,5 @@
    如果项目开启了使ray trace，必须勾选use ray trace if enable
 
  D:\COLMAP-3.9.1-windows-cuda\COLMAP.bat automatic_reconstructor --workspace_path . --image_path ./images --sparse 1 --dense 0 --camera_model SIMPLE_PINHOLE
+
+ python convert.py -s F:\gsData\oiltruck --skip_matching
